@@ -1,5 +1,12 @@
 This is the README file for the POCO C++ Libraries.
 
+To build for Hyrax, where the library is installed in the hyrax-dependencies
+'build' directory, run cmake like this:
+
+    mkdir cmake-build
+    cd cmake-build
+    cmake CMAKE_INSTALL_PREFIX=$prefix/deps ..
+
 In this document you will find a brief description of the directory layout,
 as well as a description necessary steps to build the POCO C++ Libraries.
 
