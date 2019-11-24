@@ -93,10 +93,11 @@ include(PocoMacros)
 # option(ENABLE_ENCODINGS "Enable Encodings" ON)
 option(ENABLE_ENCODINGS "Enable Encodings" OFF)
 option(ENABLE_ENCODINGS_COMPILER "Enable Encodings Compiler" OFF)
-# option(ENABLE_XML "Enable XML" ON)
-option(ENABLE_XML "Enable XML" OFF)
-#option(ENABLE_JSON "Enable JSON" ON)
-option(ENABLE_JSON "Enable JSON" OFF)
+
+option(ENABLE_XML "Enable XML" ON)
+
+option(ENABLE_JSON "Enable JSON" ON)
+
 # option(ENABLE_MONGODB "Enable MongoDB" ON)
 option(ENABLE_MONGODB "Enable MongoDB" OFF)
 # option(ENABLE_REDIS "Enable Redis" ON)
@@ -105,8 +106,8 @@ option(ENABLE_PDF "Enable PDF" OFF)
 
 option(ENABLE_UTIL "Enable Util" ON)
 
-# option(ENABLE_NET "Enable Net" ON)
-option(ENABLE_NET "Enable Net" OFF)
+option(ENABLE_NET "Enable Net" ON)
+
 # option(ENABLE_NETSSL "Enable NetSSL" ON)
 option(ENABLE_NETSSL "Enable NetSSL" OFF)
 option(ENABLE_NETSSL_WIN "Enable NetSSL Windows" OFF)
